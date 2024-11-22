@@ -24,7 +24,6 @@ public class UnsafeImageTool : IDisposable
         return false;
     }
     static char[] table = { ' ', '`', '"', '.', ',', '-', ':', ';', '!', '+', '*', '=', '\'', '\\', '/', '|', 'L', 'A', 'G', 'F', 'X', 'H', '@', '#', '%'};
-    static char[] reservedTable = table.Reverse().ToArray();
 
     public char GetPixelCharact(int x, int y)
     {
